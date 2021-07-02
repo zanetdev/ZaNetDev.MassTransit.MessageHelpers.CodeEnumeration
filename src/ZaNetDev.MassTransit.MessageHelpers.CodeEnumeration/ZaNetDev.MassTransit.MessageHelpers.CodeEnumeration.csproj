@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Ross Saunders</Authors>
+        <Description>This small helper utility is intended for use with MassTransit. Its purpose is to allow the addition of a field to a message contract (interface) that will be constrained to a set of predefined values.</Description>
+        <Copyright>Copyright (c) ZaNetDev 2021-2021</Copyright>
+        <PackageProjectUrl>https://github.com/zanetdev/ZaNetDev.MassTransit.MessageHelpers.CodeEnumeration</PackageProjectUrl>
+        <PackageTags>Masstransit Messaging EnumerationClass Enumeration</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    </ItemGroup>
+
+</Project>
